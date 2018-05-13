@@ -10,16 +10,23 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[     43478,        882]
-NotebookOptionsPosition[     42551,        856]
-NotebookOutlinePosition[     42927,        873]
-CellTagsIndexPosition[     42884,        870]
+NotebookDataLength[     43816,        893]
+NotebookOptionsPosition[     42760,        864]
+NotebookOutlinePosition[     43136,        881]
+CellTagsIndexPosition[     43093,        878]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
+Cell["Calculation on Paul Klee", "Subsection",
+ CellChangeTimes->{{3.735235201186624*^9, 
+  3.735235206254228*^9}},ExpressionUUID->"c54f278d-bcf8-4923-9da7-\
+db9a4c66a6a9"],
+
+Cell[CellGroupData[{
+
 Cell[BoxData[
  NamespaceBox["WolframAlphaQueryParseResults",
   DynamicModuleBox[{Typeset`q$$ = "image of paul klee", Typeset`newq$$ = 
@@ -853,9 +860,10 @@ EGwlpbqXHUd2e0ik8TzP2x8L7UaK
  CellChangeTimes->{3.735234380096278*^9},
  CellLabel->"Out[4]=",ExpressionUUID->"c2a50836-086f-46a3-8165-07fb10ebc62f"]
 }, Open  ]]
+}, Open  ]]
 },
 WindowSize->{808, 906},
-WindowMargins->{{4, Automatic}, {Automatic, 4}},
+WindowMargins->{{3, Automatic}, {Automatic, 4}},
 WindowStatusArea->None,
 FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 7, \
 2018)",
@@ -873,20 +881,21 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[583, 22, 16399, 378, 72, "WolframAlphaShortInput",ExpressionUUID->"0e18bf4b-f239-4049-bc0f-60dcadbff7e9"],
-Cell[16985, 402, 20308, 339, 124, "Output",ExpressionUUID->"3c03138a-9173-4aa9-8fcd-5841ed1613e8"]
+Cell[583, 22, 172, 3, 54, "Subsection",ExpressionUUID->"c54f278d-bcf8-4923-9da7-db9a4c66a6a9"],
+Cell[CellGroupData[{
+Cell[780, 29, 16399, 378, 72, "WolframAlphaShortInput",ExpressionUUID->"0e18bf4b-f239-4049-bc0f-60dcadbff7e9"],
+Cell[17182, 409, 20308, 339, 124, "Output",ExpressionUUID->"3c03138a-9173-4aa9-8fcd-5841ed1613e8"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[37330, 746, 276, 5, 30, "Input",ExpressionUUID->"6409944a-cc6f-4ba9-a676-1d1dc9c6d8ee"],
-Cell[37609, 753, 2361, 45, 124, "Output",ExpressionUUID->"db4602bc-4159-48f5-b7fe-249b7333789c"]
+Cell[37527, 753, 276, 5, 30, "Input",ExpressionUUID->"6409944a-cc6f-4ba9-a676-1d1dc9c6d8ee"],
+Cell[37806, 760, 2361, 45, 124, "Output",ExpressionUUID->"db4602bc-4159-48f5-b7fe-249b7333789c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[40007, 803, 164, 3, 30, "Input",ExpressionUUID->"4bbdd5b2-dcb6-45ae-bdd6-e069b21a3d4d"],
-Cell[40174, 808, 2361, 45, 158, "Output",ExpressionUUID->"c2a50836-086f-46a3-8165-07fb10ebc62f"]
+Cell[40204, 810, 164, 3, 30, "Input",ExpressionUUID->"4bbdd5b2-dcb6-45ae-bdd6-e069b21a3d4d"],
+Cell[40371, 815, 2361, 45, 124, "Output",ExpressionUUID->"c2a50836-086f-46a3-8165-07fb10ebc62f"]
+}, Open  ]]
 }, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
