@@ -1,0 +1,892 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[     43478,        882]
+NotebookOptionsPosition[     42551,        856]
+NotebookOutlinePosition[     42927,        873]
+CellTagsIndexPosition[     42884,        870]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryParseResults",
+  DynamicModuleBox[{Typeset`q$$ = "image of paul klee", Typeset`newq$$ = 
+   "image of paul klee", Typeset`chosen$$ = 
+   "Entity[\"Person\", \"PaulKlee::fm5mn\"][EntityProperty[\"Person\", \
+\"Image\"]]", Typeset`open$$ = False}, 
+   PaneSelectorBox[{False->
+    DynamicModuleBox[{WolframAlphaClient`Private`show$$ = False, 
+     WolframAlphaClient`Private`assumptionsQ$$ = False}, 
+     TagBox[
+      FrameBox[
+       TagBox[GridBox[{
+          {
+           InputFieldBox[Dynamic[Typeset`newq$$], String,
+            Appearance->None,
+            BaseStyle->{"CalculateInput"},
+            ContinuousAction->True,
+            Enabled->True,
+            FieldSize->{{1, 40}, {1, 
+               DirectedInfinity[1]}},
+            TrapSelection->False], 
+           ItemBox[
+            ButtonBox[
+             PaneSelectorBox[{True->
+              TagBox[
+               TooltipBox[
+                
+                DynamicBox[FEPrivate`FrontEndResource[
+                 "WABitmaps", "OrangeSquarePlus"],
+                 ImageSizeCache->{10., {3., 8.}}],
+                DynamicBox[
+                 ToBoxes[
+                  FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
+                  StandardForm]]],
+               Annotation[#, 
+                Dynamic[
+                 FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"]], 
+                "Tooltip"]& ], False->
+              TagBox[
+               TooltipBox[
+                
+                DynamicBox[FEPrivate`FrontEndResource[
+                 "WABitmaps", "GraySquarePlus"],
+                 ImageSizeCache->{10., {3., 8.}}],
+                DynamicBox[
+                 ToBoxes[
+                  FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
+                  StandardForm]]],
+               Annotation[#, 
+                Dynamic[
+                 FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"]], 
+                "Tooltip"]& ]}, Dynamic[WolframAlphaClient`Private`show$$],
+              ImageSize->All],
+             Appearance->None,
+             ButtonFunction:>(Quiet[
+                WolframAlpha[]]; If[
+                Or[
+                 CurrentValue["OptionKey"], 
+                 CurrentValue["AltKey"]], SelectionMove[
+                  ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+                NotebookWrite[
+                  ButtonNotebook[], 
+                  Cell[
+                  Typeset`newq$$, "WolframAlphaShort", FormatType -> 
+                   "TextForm"], All], Typeset`open$$ = True; 
+                WolframAlphaClient`Private`extrudeFromFastParse[
+                 "image of paul klee", 
+                  Defer[
+                   Entity["Person", "PaulKlee::fm5mn"][
+                    EntityProperty["Person", "Image"]]], "Fast parse"]; 
+                Typeset`open$$ = False]),
+             Evaluator->Automatic,
+             Method->"Queued"],
+            Alignment->{Right, Top},
+            StripOnInput->False]},
+          {
+           PaneBox[
+            TagBox[
+             TooltipBox[
+              ButtonBox[
+               PaneSelectorBox[{False->
+                StyleBox[
+                 RowBox[{
+                  TemplateBox[{"\"Paul Klee\"",RowBox[{"Entity", "[", 
+                    RowBox[{"\"Person\"", ",", "\"PaulKlee::fm5mn\""}], "]"}],
+                    "\"Entity[\\\"Person\\\", \\\"PaulKlee::fm5mn\\\"]\"",
+                    "\"person\""},
+                   "Entity"], "[", 
+                  TemplateBox[{"\"image\"",RowBox[{"EntityProperty", "[", 
+                    RowBox[{"\"Person\"", ",", "\"Image\""}], "]"}],
+                    "\"EntityProperty[\\\"Person\\\", \\\"Image\\\"]\""},
+                   "EntityProperty"], "]"}],
+                 StripOnInput->False,
+                 NumberMarks->False], True->
+                StyleBox[
+                 RowBox[{
+                  TemplateBox[{"\"Paul Klee\"",RowBox[{"Entity", "[", 
+                    RowBox[{"\"Person\"", ",", "\"PaulKlee::fm5mn\""}], "]"}],
+                    "\"Entity[\\\"Person\\\", \\\"PaulKlee::fm5mn\\\"]\"",
+                    "\"person\""},
+                   "Entity"], "[", 
+                  TemplateBox[{"\"image\"",RowBox[{"EntityProperty", "[", 
+                    RowBox[{"\"Person\"", ",", "\"Image\""}], "]"}],
+                    "\"EntityProperty[\\\"Person\\\", \\\"Image\\\"]\""},
+                   "EntityProperty"], "]"}],
+                 StripOnInput->False,
+                 ShowSyntaxStyles->False,
+                 NumberMarks->False,
+                 FontColor->RGBColor[1, 0.5, 0]]}, Dynamic[
+                 CurrentValue["MouseOver"]],
+                BaseStyle->{ShowStringCharacters -> True},
+                FrameMargins->0,
+                ImageSize->Automatic],
+               Alignment->Left,
+               Appearance->None,
+               BaseStyle->{},
+               ButtonFunction:>(SelectionMove[
+                  ButtonNotebook[], All, ButtonCell]; NotebookWrite[
+                  ButtonNotebook[], 
+                  Cell[
+                   BoxData[
+                    RowBox[{
+                    TemplateBox[{"\"Paul Klee\"", 
+                    RowBox[{"Entity", "[", 
+                    RowBox[{"\"Person\"", ",", "\"PaulKlee::fm5mn\""}], "]"}],
+                     "\"Entity[\\\"Person\\\", \\\"PaulKlee::fm5mn\\\"]\"", 
+                    "\"person\""}, "Entity"], "[", 
+                    TemplateBox[{"\"image\"", 
+                    RowBox[{"EntityProperty", "[", 
+                    RowBox[{"\"Person\"", ",", "\"Image\""}], "]"}], 
+                    "\"EntityProperty[\\\"Person\\\", \\\"Image\\\"]\""}, 
+                    "EntityProperty"], "]"}]], "Input"], All]; SelectionMove[
+                  ButtonNotebook[], After, CellContents]),
+               Evaluator->Automatic,
+               ImageSize->Automatic,
+               Method->"Preemptive"],
+              DynamicBox[
+               ToBoxes[
+                FEPrivate`FrontEndResource["WAStrings", "RemoveResults"], 
+                StandardForm]]],
+             Annotation[#, 
+              Dynamic[
+               FEPrivate`FrontEndResource["WAStrings", "RemoveResults"]], 
+              "Tooltip"]& ],
+            AppearanceElements->{},
+            BaseStyle->{ShowStringCharacters -> True, ScriptLevel -> 0},
+            ImageSize->{Automatic, {1, 100}},
+            Scrollbars->{False, Automatic}], "\[SpanFromLeft]"}
+         },
+         AutoDelete->False,
+         BaselinePosition->{1, 1},
+         FrameStyle->GrayLevel[0.85],
+         GridBoxAlignment->{"Columns" -> {{Left}}},
+         GridBoxDividers->{
+          "Columns" -> {{False}}, "Rows" -> {False, {True}, False}},
+         GridBoxItemSize->{
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+        "Grid"],
+       Alignment->Top,
+       Background->Dynamic[
+         FEPrivate`If[
+          FEPrivate`And[
+           FEPrivate`SameQ[
+            FEPrivate`Head[Typeset`newq$$], String], 
+           FEPrivate`UnsameQ[Typeset`q$$, Typeset`newq$$]], 
+          RGBColor[1., 0.975, 0.95], 
+          GrayLevel[1]]],
+       BaselinePosition->Baseline,
+       FrameStyle->GrayLevel[0.85],
+       ImageSize->Automatic,
+       RoundingRadius->5,
+       StripOnInput->False],
+      EventHandlerTag[{
+       "MouseEntered" :> 
+        FEPrivate`Set[WolframAlphaClient`Private`show$$, True], "MouseExited" :> 
+        FEPrivate`Set[WolframAlphaClient`Private`show$$, False], Method -> 
+        "Preemptive", PassEventsDown -> Automatic, PassEventsUp -> True}]],
+     DynamicModuleValues:>{}], True->
+    TagBox[GridBox[{
+       {
+        DynamicModuleBox[{WolframAlphaClient`Private`show$$ = False, 
+         WolframAlphaClient`Private`assumptionsQ$$ = False}, 
+         TagBox[
+          FrameBox[
+           TagBox[GridBox[{
+              {
+               InputFieldBox[Dynamic[Typeset`newq$$], String,
+                Appearance->None,
+                BaseStyle->{"CalculateInput"},
+                ContinuousAction->True,
+                Enabled->True,
+                FieldSize->{{1, 40}, {1, 
+                   DirectedInfinity[1]}},
+                TrapSelection->False], 
+               ItemBox[
+                ButtonBox[
+                 PaneSelectorBox[{True->
+                  TagBox[
+                   TooltipBox[
+                    
+                    DynamicBox[FEPrivate`FrontEndResource[
+                    "WABitmaps", "OrangeSquarePlus"]],
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"],
+                     StandardForm]]],
+                   Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "WAStrings", "ShowAllResults"]], "Tooltip"]& ], False->
+                  TagBox[
+                   TooltipBox[
+                    
+                    DynamicBox[FEPrivate`FrontEndResource[
+                    "WABitmaps", "GraySquarePlus"]],
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"],
+                     StandardForm]]],
+                   Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "WAStrings", "ShowAllResults"]], "Tooltip"]& ]}, Dynamic[
+                  WolframAlphaClient`Private`show$$],
+                  ImageSize->All],
+                 Appearance->None,
+                 ButtonFunction:>(Quiet[
+                    WolframAlpha[]]; If[
+                    Or[
+                    CurrentValue["OptionKey"], 
+                    CurrentValue["AltKey"]], SelectionMove[
+                    ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+                    NotebookWrite[
+                    ButtonNotebook[], 
+                    Cell[
+                    Typeset`newq$$, "WolframAlphaShort", FormatType -> 
+                    "TextForm"], All], Typeset`open$$ = True; 
+                    WolframAlphaClient`Private`extrudeFromFastParse[
+                    "image of paul klee", 
+                    Defer[
+                    Entity["Person", "PaulKlee::fm5mn"][
+                    EntityProperty["Person", "Image"]]], "Fast parse"]; 
+                    Typeset`open$$ = False]),
+                 Evaluator->Automatic,
+                 Method->"Queued"],
+                Alignment->{Right, Top},
+                StripOnInput->False]},
+              {
+               PaneBox[
+                TagBox[
+                 TooltipBox[
+                  ButtonBox[
+                   PaneSelectorBox[{False->
+                    StyleBox[
+                    RowBox[{
+                    TemplateBox[{"\"Paul Klee\"",RowBox[{"Entity", "[", 
+                    RowBox[{"\"Person\"", ",", "\"PaulKlee::fm5mn\""}], "]"}],
+                    "\"Entity[\\\"Person\\\", \\\"PaulKlee::fm5mn\\\"]\"",
+                    "\"person\""},
+                    "Entity"], "[", 
+                    TemplateBox[{"\"image\"",RowBox[{"EntityProperty", "[", 
+                    RowBox[{"\"Person\"", ",", "\"Image\""}], "]"}],
+                    "\"EntityProperty[\\\"Person\\\", \\\"Image\\\"]\""},
+                    "EntityProperty"], "]"}],
+                    StripOnInput->False,
+                    NumberMarks->False], True->
+                    StyleBox[
+                    RowBox[{
+                    TemplateBox[{"\"Paul Klee\"",RowBox[{"Entity", "[", 
+                    RowBox[{"\"Person\"", ",", "\"PaulKlee::fm5mn\""}], "]"}],
+                    "\"Entity[\\\"Person\\\", \\\"PaulKlee::fm5mn\\\"]\"",
+                    "\"person\""},
+                    "Entity"], "[", 
+                    TemplateBox[{"\"image\"",RowBox[{"EntityProperty", "[", 
+                    RowBox[{"\"Person\"", ",", "\"Image\""}], "]"}],
+                    "\"EntityProperty[\\\"Person\\\", \\\"Image\\\"]\""},
+                    "EntityProperty"], "]"}],
+                    StripOnInput->False,
+                    ShowSyntaxStyles->False,
+                    NumberMarks->False,
+                    FontColor->RGBColor[1, 0.5, 0]]}, Dynamic[
+                    CurrentValue["MouseOver"]],
+                    BaseStyle->{ShowStringCharacters -> True},
+                    FrameMargins->0,
+                    ImageSize->Automatic],
+                   Alignment->Left,
+                   Appearance->None,
+                   BaseStyle->{},
+                   ButtonFunction:>(SelectionMove[
+                    ButtonNotebook[], All, ButtonCell]; NotebookWrite[
+                    ButtonNotebook[], 
+                    Cell[
+                    BoxData[
+                    RowBox[{
+                    TemplateBox[{"\"Paul Klee\"", 
+                    RowBox[{"Entity", "[", 
+                    RowBox[{"\"Person\"", ",", "\"PaulKlee::fm5mn\""}], "]"}],
+                     "\"Entity[\\\"Person\\\", \\\"PaulKlee::fm5mn\\\"]\"", 
+                    "\"person\""}, "Entity"], "[", 
+                    TemplateBox[{"\"image\"", 
+                    RowBox[{"EntityProperty", "[", 
+                    RowBox[{"\"Person\"", ",", "\"Image\""}], "]"}], 
+                    "\"EntityProperty[\\\"Person\\\", \\\"Image\\\"]\""}, 
+                    "EntityProperty"], "]"}]], "Input"], All]; SelectionMove[
+                    ButtonNotebook[], After, CellContents]),
+                   Evaluator->Automatic,
+                   ImageSize->Automatic,
+                   Method->"Preemptive"],
+                  DynamicBox[
+                   ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "RemoveResults"], 
+                    StandardForm]]],
+                 Annotation[#, 
+                  Dynamic[
+                   FEPrivate`FrontEndResource["WAStrings", "RemoveResults"]], 
+                  "Tooltip"]& ],
+                AppearanceElements->{},
+                BaseStyle->{ShowStringCharacters -> True, ScriptLevel -> 0},
+                ImageSize->{Automatic, {1, 100}},
+                Scrollbars->{False, Automatic}], "\[SpanFromLeft]"}
+             },
+             AutoDelete->False,
+             BaselinePosition->{1, 1},
+             FrameStyle->GrayLevel[0.85],
+             GridBoxAlignment->{"Columns" -> {{Left}}},
+             
+             GridBoxDividers->{
+              "Columns" -> {{False}}, "Rows" -> {False, {True}, False}},
+             
+             GridBoxItemSize->{
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+            "Grid"],
+           Alignment->Top,
+           Background->Dynamic[
+             FEPrivate`If[
+              FEPrivate`And[
+               FEPrivate`SameQ[
+                FEPrivate`Head[Typeset`newq$$], String], 
+               FEPrivate`UnsameQ[Typeset`q$$, Typeset`newq$$]], 
+              RGBColor[1., 0.975, 0.95], 
+              GrayLevel[1]]],
+           BaselinePosition->Baseline,
+           FrameStyle->GrayLevel[0.85],
+           ImageSize->Automatic,
+           RoundingRadius->5,
+           StripOnInput->False],
+          
+          EventHandlerTag[{
+           "MouseEntered" :> 
+            FEPrivate`Set[WolframAlphaClient`Private`show$$, True], 
+            "MouseExited" :> 
+            FEPrivate`Set[WolframAlphaClient`Private`show$$, False], Method -> 
+            "Preemptive", PassEventsDown -> Automatic, PassEventsUp -> True}]],
+         DynamicModuleValues:>{}]},
+       {
+        InterpretationBox[
+         StyleBox[
+          
+          DynamicBox[FEPrivate`FrontEndResource[
+           "FEExpressions", "NecklaceAnimator"][20]],
+          AnimatorBoxOptions->{ImageSize->20}],
+         Animator[Appearance -> "Necklace", ImageSize -> 20],
+         BaseStyle->{"Deploy"}]}
+      },
+      BaselinePosition->{1, 1},
+      DefaultBaseStyle->"Column",
+      GridBoxAlignment->{"Columns" -> {{Left}}},
+      GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+     
+     "Column"]}, Dynamic[
+     TrueQ[Typeset`open$$]],
+    BaseStyle->{Deployed -> True},
+    ImageSize->Automatic],
+   DynamicModuleValues:>{}],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "WolframAlphaShortInput",
+ CellLabel->"In[2]:=",ExpressionUUID->"0e18bf4b-f239-4049-bc0f-60dcadbff7e9"],
+
+Cell[BoxData[
+ GraphicsBox[
+  TagBox[RasterBox[CompressedData["
+1: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
+kvX/AP/Kagk=
+    "], {{0, 107}, {150, 0}}, {0, 255},
+    ColorFunction->GrayLevel],
+   BoxForm`ImageTag[
+   "Byte", ColorSpace -> "Grayscale", ImageResolution -> {300, 300}, 
+    Interleaving -> None, MetaInformation -> 
+    Association[
+     "Source" -> 
+      "http://en.wikipedia.org/wiki/File:Paul_Klee_Self_Portrait_1911.jpg", 
+      "URL" -> "http://www.wolframcdn.com/waimage/hset028/4ad/\
+4ad31444c8614a57487a43ec983eaca4_v001s.jpg"]],
+   Selectable->False],
+  DefaultBaseStyle->"ImageGraphics",
+  ImageSizeRaw->{150, 107},
+  PlotRange->{{0, 150}, {0, 107}}]], "Output",
+ CellChangeTimes->{{3.735234350134205*^9, 3.735234350450295*^9}},
+ CellLabel->"Out[2]=",ExpressionUUID->"3c03138a-9173-4aa9-8fcd-5841ed1613e8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"EdgeDetect", "[", 
+  RowBox[{"%2", ",", "3.3000000000000003`", ",", "0.211`", ",", 
+   RowBox[{"Method", "\[Rule]", "\"\<Canny\>\""}]}], "]"}]], "Input",
+ NumberMarks->False,
+ CellLabel->"In[3]:=",ExpressionUUID->"6409944a-cc6f-4ba9-a676-1d1dc9c6d8ee"],
+
+Cell[BoxData[
+ GraphicsBox[
+  TagBox[RasterBox[CompressedData["
+1:eJzdmkuOFDEMhiusWHIFbsGWJdtBHGBGNCOE1Eg9SIiLcF4GdSWx4z/xI6ke
+RKShqyqJ/XXs2K40bx++3315tW3b0+vnf+7uf76/XO5/fXzzfPPp/PT18Xz6
+/OH84/R4urx7+Dvs2/Pf7+0/aynYDmaKTlwLQiXPiD4Ga9oKpuk+Y6+wgEVE
+6usS/rnGK+xS5P4o96Vrmae6BFEuwLjQTZ2idtWF4KgA45VKTHm9OAQr/mUT
++1jcZqPLQcF4QuyBecsnOQ3u7BoNqdgXHcJTpYwhVjyjBJfKptkuvIHyTIQl
+1BKqhsmTrwKqjeLJMN/u648dibFpqBKcASHo1L5Cyxuk9oKinVXy1gzWNelF
+Kv5E/vTHTionS5mXKELzfJ4qGseLfBCAwXMfVSzpZVfEVKQTKrDuQucLZWKf
+osQnsHuxZk1oXf0eqrwPm54kuhwZDS+Nn4pGPI7G3ghcKiibNT40FO2SMCuC
+VyVPSvMkQHFF9iSjSgSsljpWPb7Wmiw/Ejuz40+HYZFlIVfIowDWQVRbCSdc
+JQ74ZajXhuHTL7BYgxrQWQnomT5LBclYUDVLhRR5qJTReUcpVEh2c5gSSCHq
+KGJt4FiAir3/gOw50qfaryEA6a1obagyk7JJgT51HEhPbBOWiMkzfSod1Kl0
+qmQeN3zJEh5DzBywodnSXFmLRb2ZMNCPBMaMoFwBt/NeROI7wUrVhGwM0ChS
+uDOAwnCIFkKcI4515sVE1aIJqxdSmUYRNblJoWB5NdV4PWOxVR8rlP86WEyV
+SMpIOQSSPW4IIbVNSh35GtYyKlQP9780XJOgmw+pthrKuW4n1kxh2DVNIp0j
++YPVWk61p5Xu9tOwYI5fQFWrGhQo5Z3AGgrXqMZYnQHo/X4t1qinGwZRRgC+
+Fd6Io+2lLiS7FclrKZbpZQnlT2jDIBY737Cnrta11mPFXiWlxyMbriobrA0V
+ZmjIrbHkHca6EQ9R2QD8A6uFShgx5gVWSwLgMS/uWnjMTY0I9iEYNOg7ppkW
+6+auZaGaKx8izURFznR8wqPvbmaqAFavErbOxHf8uTfLNgcIvsmDO97hEd4c
+bSel2AtTebAkgOVVrnOo2puXU6GVarTgAySmzTItuUwYouKXNqq02Wt487vC
+LFXGMkHdjuraZzoKD0GRPhmEtHkWqv7deip6znsEVelEarTYrlINykglWtFP
+IxUl63WXINgcqb8sVcVjn+A338F0mNBHjqVIbnIxzTqW2iFIpQ+gP3wAj7JQ
+4WNApzc3PcVkdWGvP7/ZqaCWFVT5PtWnmvVLN6TyhqMhVf4n7QY1UDW+aaVS
+vJ1uP0ZlEE6oWgNqWBpV9vU8dPcqFsXcVOr3USJHqluRbipzVuhR2QKwRCql
+TomddVeZoMhcOXiMhTv5/yYpSYeumaEGqvth7syyQG11o+0XTUAwFmZqpHZQ
+ZQzaTQJnsn758Ptjf63gw2S1Hhcux0f8Cg8N/zwMZsX24NIGlso7gXYuYl5L
+tQprMdUaLORWE96ulwWmJgO7dwLrrPXdVGuqGF1kN+HIMLoAyhpbcLhM4wHO
+llOqedlxZNeHeBrN87T9AXkKEuA=
+    "], {{0, 107}, {150, 0}}, {0, 1},
+    ColorFunction->GrayLevel],
+   BoxForm`ImageTag[
+   "Bit", ColorSpace -> Automatic, ImageResolution -> {300, 300}, 
+    Interleaving -> None, MetaInformation -> 
+    Association[
+     "Source" -> 
+      "http://en.wikipedia.org/wiki/File:Paul_Klee_Self_Portrait_1911.jpg", 
+      "URL" -> "http://www.wolframcdn.com/waimage/hset028/4ad/\
+4ad31444c8614a57487a43ec983eaca4_v001s.jpg"]],
+   Selectable->False],
+  DefaultBaseStyle->"ImageGraphics",
+  ImageSizeRaw->{150, 107},
+  PlotRange->{{0, 150}, {0, 107}}]], "Output",
+ CellChangeTimes->{3.735234375769113*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"db4602bc-4159-48f5-b7fe-249b7333789c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ColorNegate", "[", "%3", "]"}]], "Input",
+ NumberMarks->False,
+ CellLabel->"In[4]:=",ExpressionUUID->"4bbdd5b2-dcb6-45ae-bdd6-e069b21a3d4d"],
+
+Cell[BoxData[
+ GraphicsBox[
+  TagBox[RasterBox[CompressedData["
+1:eJzdms1uFDEMx72cOPIKvAVXjlyLeIBWlAohFalFQrwIz8uinSR2/E/8MZkt
+ItJ2dyaJ/dvYsT3Zvr37fvPlFRE9vz7/ubn9+f7p6fbXxzfni0+Pz18fHu8/
+f3j8cf9w//Tu7u+wb+fX7/Pr9D81SraDmbIT14JwyXtEH4O12wqu6TFjr7CA
+RwSNdSn/XOMVfil6f9Tr2rXMU0OCOBdgXOimQVGb6kpwVICJSmWmvHw4BCv/
+ZUm8LW57o8tBwXiH2APzVkwyTa78Gh2pOBYd0lO1jClWPqMkl8qn2S+8g4pM
+hCXUEqqOKZKvEqqd4tmw2O4bj52J8WloEoIBIenUsUIrGqS2gqKfVfPWHqxL
+0stU/MRe9u0gVZClziOO0N3fT5WN41U+CMDgfowql/SKK2Iq1gkVeHdh8IGS
+xLsq8RnsVqx5E9pQf4Sq7MOuh1RXIKPhpYlT8Ygn0cQTQUgFZ/PGh46iXxJh
+RfCoFElpkQSoPrE9KaiIgbVSx6sn1nqTlVtqZw786TAstizsE/IogHUQ1amG
+E6kSB/w6NGrD9OkXWKxJDRisBOxMX6SCZKyouqVCiiJUxuiyowwqJLs7TEmk
+EHMUszZwLEAlnn9A9pzpM+3XEYD0VrV2VIXJ2KRAnzkOpCexCWvElJmeagd3
+KpuK3OOmD1nKY5iZEzZ0W1oq67G4NzMG/kZgzAwqFHAHz0UsvjMsaiYUY4BG
+lcKDARSGQ7QQ6hxxrrMsJqoWXVijkCo0qqgpTQoF60+7mqxnPLYaY6Xy3wBL
+qFJJGSmHQLonDKGk9klpIN/CWkaF6uHxl4ZrknTzKdWphXKpO4i1pzAcmoZY
+50z+ZLWWU21pZbj9LCyY4xdQtaoGBUp9pbCmwi2qOdZgAHq+X4s16xmGQZQR
+gG+lN+Jse5kLKS5V8lqK5XpYQvkT2jCJJc43/Kmrd631WLlHSe3xyIarygZv
+Q4UZGnJtLH2Fsa7Ew1R2AP/AaqESRo15gdXSAHjMi7sWHnNVI4J9CAZN+o5p
+rsW6umt5qPaVD5nmomJnOjHh2Wc3N1UCa1QJe2fiK3k/mmW7A4TY5MmV7IgI
+7462ySj20lQRLA3geZQbHKqO5pVU6KWaLfgESWjzTKOQCVNU8qOPik7+Gt79
+rLCXqmC5oK5HdelzHYWnoFifDkLWPA/V+Go9FT/nPYKqdiI1Vmw3qSZlpBGt
++LuTipONumsQ7I7UX5aq4Yl38JvvZDpM6DPHMiR3uZhnHU/tkKSyB/AfPoBH
+eajwMWDQm7uearK2sJef3/xUUMsKqnJN7a5l/doNqaLhaEpV/tBmUAdV55te
+KsPb+fYTVA7hjKo3oIVlURVfL0M3rxJRLExlfh8jclDbinxTubPCiMoXgDVS
+LXVq7Gy7ygXF5urBcyzcKf+bpCYdvmaOGqjth31nlhXq1Dba9qELCM7CzIzU
+AaqCwbtZ4CTvl08/P47XCt4kr/WkcD0+41d4aPrnYTArtweXNrBU0Qm8cxHz
+WqpVWIup1mAht9rh7XZZ4Go6sEcniM5W3+1qXRVjixwmHB1GF0B5YwsOlzQf
+EGwlpbqXHUd2e0ik8TzP2x8L7UaK
+    "], {{0, 107}, {150, 0}}, {0, 1},
+    ColorFunction->GrayLevel],
+   BoxForm`ImageTag[
+   "Bit", ColorSpace -> Automatic, ImageResolution -> {300, 300}, 
+    Interleaving -> None, MetaInformation -> 
+    Association[
+     "Source" -> 
+      "http://en.wikipedia.org/wiki/File:Paul_Klee_Self_Portrait_1911.jpg", 
+      "URL" -> "http://www.wolframcdn.com/waimage/hset028/4ad/\
+4ad31444c8614a57487a43ec983eaca4_v001s.jpg"]],
+   Selectable->False],
+  DefaultBaseStyle->"ImageGraphics",
+  ImageSizeRaw->{150, 107},
+  PlotRange->{{0, 150}, {0, 107}}]], "Output",
+ CellChangeTimes->{3.735234380096278*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"c2a50836-086f-46a3-8165-07fb10ebc62f"]
+}, Open  ]]
+},
+WindowSize->{808, 906},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+WindowStatusArea->None,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 7, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[583, 22, 16399, 378, 72, "WolframAlphaShortInput",ExpressionUUID->"0e18bf4b-f239-4049-bc0f-60dcadbff7e9"],
+Cell[16985, 402, 20308, 339, 124, "Output",ExpressionUUID->"3c03138a-9173-4aa9-8fcd-5841ed1613e8"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37330, 746, 276, 5, 30, "Input",ExpressionUUID->"6409944a-cc6f-4ba9-a676-1d1dc9c6d8ee"],
+Cell[37609, 753, 2361, 45, 124, "Output",ExpressionUUID->"db4602bc-4159-48f5-b7fe-249b7333789c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[40007, 803, 164, 3, 30, "Input",ExpressionUUID->"4bbdd5b2-dcb6-45ae-bdd6-e069b21a3d4d"],
+Cell[40174, 808, 2361, 45, 158, "Output",ExpressionUUID->"c2a50836-086f-46a3-8165-07fb10ebc62f"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
